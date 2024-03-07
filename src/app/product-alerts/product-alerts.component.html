@@ -1,0 +1,6 @@
+<div class="spacing" *ngIf="product && product.price > 700">
+    <button
+        class="btn btn-success m-2"
+        (click)="notify.emit()" 
+        type="button">Notify Me</button>
+</div>
